@@ -6,11 +6,11 @@
 }
 
 :root {
-  --brand-black: #111111;
-  --brand-dark: #1e1e1e;
+  --brand-black: #000000;
+  --brand-dark: #0e0e0e;
   --brand-accent: #e3a535;
   --brand-accent-2: #ab8021;
-  --brand-surface: #fffdf9;
+  --brand-surface: #ffffff;
   --brand-border: #e8dfd7;
   --brand-muted: #6b6b6b;
   --body-font: "Helvetica Now", "Helvetica Neue", Arial, sans-serif;
