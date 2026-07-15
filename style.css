@@ -13,11 +13,13 @@
   --brand-surface: #fffdf9;
   --brand-border: #e8dfd7;
   --brand-muted: #6b6b6b;
+  --body-font: "Helvetica Now", "Helvetica Neue", Arial, sans-serif;
+  --heading-font: "Halesworth", Georgia, serif;
 }
 
 /* —— body + fonts —— */
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: var(--body-font);
   color: var(--brand-dark);
   background: linear-gradient(135deg, #fffaf4 0%, #f3eee8 100%);
   display: flex;
@@ -55,6 +57,7 @@ body {
 }
 
 .site-title {
+  font-family: var(--heading-font);
   font-size: 24px;
   font-weight: 700;
   color: var(--brand-black);
@@ -81,6 +84,7 @@ body {
 
 .question-label {
   display: block;
+  font-family: var(--heading-font);
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -146,6 +150,7 @@ body {
   padding: 14px 16px;
   border: 1px solid var(--brand-border);
   border-radius: 999px;
+  font-family: var(--body-font);
   font-size: 18px;
   background: #ffffff;
 }
@@ -217,6 +222,7 @@ body {
 }
 
 .site-footer a {
+  font-family: var(--heading-font);
   margin: 0 8px;
   color: var(--brand-accent-2);
   text-decoration: none;
